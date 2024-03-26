@@ -1,0 +1,49 @@
+/* フォントサイズを指定します */
+html {
+    font-size: 125%;
+}
+/* フォントを指定します */
+body {
+    font-family: "Arial","Meiryo",sans-serif;
+}
+
+/* h1のstyleを指定します */
+h1 {
+/* google fontを使用します */
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+/* 文字の下に実線を付けます */ 
+    border-bottom: solid 3px rgb(115, 115, 114);
+/* 文字に影を付けます自由です*/
+    text-shadow: 2px 2px 2px gray;
+/* 文字を中央に寄せます */
+    text-align: center;
+/* 文字間を文字の1.2倍にします */
+    letter-spacing:1.2em;
+/* フォントサイズを2倍にします */
+    font-size: 200%;
+}
+
+/* h2のstyleを指定します */
+h2 {
+    text-align: center;
+}
+/* pのstyleを指定します */
+p {
+    text-align: center;
+}
+/* textpinkの色を指定 */
+.textpink {
+    color: rgb(255,192,203);
+}
+/* textskyblueの色を指定 */
+.textskyblue {
+    color: skyblue;
+}
+/* childのスタイルを指定 */
+#child1 {
+    font-weight: bold;
+}
+
